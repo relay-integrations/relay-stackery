@@ -1,4 +1,4 @@
-# stackery-deploy
+# stackery-step-stack-deploy
 
 This [Stackery](https://www.stackery.io/) deployment step container deploys a
 Stackery stack to a Stackery environment. It uses the CodeBuild strategy for Git
@@ -46,7 +46,7 @@ This step does not currently support local builds that need a .NET Core runtime.
 steps:
 # ...
 - name: stackery-deploy
-  image: projectnebula/stackery-deploy
+  image: relaysh/stackery-step-stack-deploy
   spec:
     stackery:
       key:
@@ -75,7 +75,7 @@ steps:
 steps:
 # ...
 - name: stackery-deploy
-  image: projectnebula/stackery-deploy
+  image: relaysh/stackery-step-stack-deploy
   spec:
     stackery:
       key:
