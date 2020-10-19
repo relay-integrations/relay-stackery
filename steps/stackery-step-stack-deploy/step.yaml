@@ -14,7 +14,7 @@ name: stackery-step-stack-deploy
 version: 3
 
 # High-level phrase describing what this action does. Required.
-summary: Stack deploy
+summary: Deploy Stackery stack
 
 # Single-paragraph explanation of what this action does in more detail.
 # Optional. Markdown.
