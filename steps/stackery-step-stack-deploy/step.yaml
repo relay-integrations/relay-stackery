@@ -18,8 +18,7 @@ summary: Deploy Stackery stack
 
 # Single-paragraph explanation of what this action does in more detail.
 # Optional. Markdown.
-description: |
-  This step executes a stack deploy.
+description: Executes a Stackery stack deploy.
 
 # URL or path relative to this file to an icon or icons representing this
 # action. Optional. Defaults to the integration icon.
